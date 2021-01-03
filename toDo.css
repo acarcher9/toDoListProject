@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    font-size: 20px;
+} 
+
+body, h2{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+}
+
+#addToDo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#addToDo:hover{
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+    background: #fda085;
+    color: white;
+} 
+
+#inputField {
+    width: 200px;
+    height: 30px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    color: #fda085;
+    vertical-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#toDoContainer{
+    font-size: 25px;
+    color: #fda085;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
